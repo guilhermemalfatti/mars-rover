@@ -1,0 +1,23 @@
+{
+  "name": "mars_rover",
+  "version": "1.0.0",
+  "description": "Mars Rovers Code Challenge",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"no test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "tempmalfatti"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Guilherme Malfatti guimalfatti76@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "nicl": "^0.1.2"
+  }
+}
