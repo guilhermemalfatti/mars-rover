@@ -10,14 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "tempmalfatti"
+    "url": "https://github.com/guilhermemalfatti/mars-rover"
   },
   "keywords": [
     "js"
   ],
-  "author": "Guilherme Malfatti guimalfatti76@gmail.com",
+  "author": "Guilherme Malfatti <guimalfatti76@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "nicl": "^0.1.2"
+    "lodash": "^4.17.10",
+    "vorpal": "^1.12.0"
   }
 }
