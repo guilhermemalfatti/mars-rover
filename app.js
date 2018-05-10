@@ -8,7 +8,7 @@ vorpal
   .delimiter('mars-rover$')
   .show();
 
-  vorpal
+vorpal
   .command('Plateau <x> <y>', 'Create a Plateau.')
   .validate(validator.plateau)
   .action(function(args, cb){
@@ -16,7 +16,7 @@ vorpal
     cb();
   });
 
-  vorpal
+vorpal
   .command('Rover Landing <x> <y> <compass_point>', 'Landing a Rover at Mars.')
   .validate(validator.landing)
   .action(function(args, cb){
@@ -30,7 +30,7 @@ vorpal
     cb();
   });
 
-  vorpal
+vorpal
   .command('Rover Instructions <instructions>', 'Instructions to the current Rover.')
   .validate(validator.instructions)
   .action(function(args, cb){
