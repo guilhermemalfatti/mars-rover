@@ -10,6 +10,7 @@ vorpal
 
 vorpal
   .command('Plateau <x> <y>', 'Create a Plateau.')
+  .alias('p')
   .validate(validator.plateau)
   .action(function(args, cb){
     plateau = control.createPlateau(args.x, args.y);
@@ -18,6 +19,7 @@ vorpal
 
 vorpal
   .command('Rover Landing <x> <y> <compass_point>', 'Landing a Rover at Mars.')
+  .alias('rl')
   .validate(validator.landing)
   .action(function(args, cb){
     var rover = control.createRover(plateau);
@@ -32,6 +34,7 @@ vorpal
 
 vorpal
   .command('Rover Instructions <instructions>', 'Instructions to the current Rover.')
+  .alias('ri')
   .validate(validator.instructions)
   .action(function(args, cb){
     var rover = _.last(rovers);
